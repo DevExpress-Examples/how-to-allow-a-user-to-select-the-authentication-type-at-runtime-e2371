@@ -1,0 +1,98 @@
+/* Common */
+body {
+    background-color: #BFDBFF;
+    color: #1641A0;
+
+    background-image: url('BackgroundRepeat.gif'); 
+    background-position: top; 
+    background-repeat: repeat-x;
+
+    font-size: 80%;
+	padding: 0px; 
+	margin: 0px;
+}
+a {
+    color: #5689C5; 
+    text-decoration: underline;   
+}
+a:visited {
+    color: #A1A1A1;
+    text-decoration: underline;   
+}
+div.PageContent {
+    background-image: url('Background.jpg'); 
+    background-position: top right; 
+    background-repeat: no-repeat;
+    
+    padding: 0px 0px 0px 0px;
+}
+/* Action Container Panel */
+.ACPanel 
+{
+	background: url('opacity50.png') repeat;
+	
+	padding: 2px 20px 2px 20px;
+	height: 25px;
+}	
+/* Main table */
+.Main {
+	background: white;
+}
+h1 {
+	color: Black;
+	
+	font-size: 200%;
+	font-family: Tahoma;
+	font-weight: normal;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+/* Footer */
+.FooterCopyright {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	text-align: right;
+	
+	color: #788CA5;
+}
+/* Dialog */
+body.Dialog {
+	background-color: White !important;
+}
+div.DialogPageContent {
+	margin: 0px;
+}
+div.Header {
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+}
+.DialogContent {
+	background-color: White;
+	
+	height: 300px;
+}
+/* Error */
+.Error {
+	color: Black;
+}
+/* Controls customization */
+.dxnbControl_Aqua {
+	width: 100%;
+}
+.dxgvControl_Aqua {
+	width: 100%;
+}
+.dxgvHeader_Aqua td {
+    white-space:normal;
+}
+.dxtcControl_Aqua {
+    width: 100% !important;
+}
+.NavigationTabsActionContainer .dxtcControl_Aqua {
+background-image: url('opacity50.png'); 
+background-repeat: repeat-x;
+}
+.NavigationTabsActionContainer .dxtcPageContent_Aqua {
+    border: none !important;
+}
