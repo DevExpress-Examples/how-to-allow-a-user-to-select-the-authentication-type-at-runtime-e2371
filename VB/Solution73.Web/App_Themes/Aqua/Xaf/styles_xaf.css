@@ -1,0 +1,189 @@
+/* Navigation Links (QuickAccessNavigationActionContainer) */
+.NavigationLinks a, .NavigationLinks a:hover, .NavigationLinks a:visited {
+	text-decoration: underline;
+	margin: 0px 6px;
+}
+/* Button ActionContainer (DefaultActionContainerControlBuilder, removed in v9.3) */
+.ActionContainer .Item {
+	padding: 0px 10px 0px 10px;
+}
+.ActionContainer .WrappedItem {
+	padding: 4px 10px 4px 10px;
+	float: left;
+}
+.Vertical .Item {
+	padding: 4px 0px 4px 0px;
+}
+/* ParametrizedActionControl */
+.ParametrizedActionControl .Label, .ParametrizedActionControl .Editor,
+.ParametrizedActionControlWithImage .Label, .ParametrizedActionControlWithImage .Editor {
+	vertical-align: middle;
+	padding: 0px;
+}
+.ParametrizedActionControl .Editor,
+.ParametrizedActionControlWithImage .Editor {
+	padding-left: 1px;
+}
+.ParametrizedActionControl .Editor div.dxb {
+	padding-top: 1px;
+	padding-bottom: 2px;
+}
+.ParametrizedActionControlWithImage .Editor div.dxb {
+	padding: 0px 8px 1px 9px;
+}
+.ParametrizedActionControl .dxeTextBox_xaf,
+.ParametrizedActionControlWithImage .dxeTextBox_xaf 
+{
+	width: 130px;
+}
+/* LookupButton */
+.xafLookupButton {
+	margin-left: 1px;
+}
+/* Layout Group Header */
+.GroupHeader 
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 27px;
+	margin: 20px 0px 10px 0px;
+}
+.GroupHeader td {
+}
+.GroupHeader td.Image {	
+	border-bottom: #B6BDCC solid 1px;
+}
+.NextColumn .GroupHeader td.L div {
+	width: 35px;
+}
+.GroupHeader td.R div {
+	width: 5px;
+	height: 27px;
+}
+/* Layout Group Content */
+.Layout table.GroupContent {
+	/*margin: 13px 0px 22px 0px;*/
+	width: 100%;
+}
+.Layout td.GroupContent {
+	vertical-align: top;
+}
+.Layout .WebEditorCell {
+	padding: 0px 0px 0px 0px;
+}
+.LayoutViewMode .WebEditorCell {
+	padding: 2px 0px 0px 0px;
+}
+.Layout .WebEditorCell a, .Layout .WebEditorCell a:hover, .Layout .WebEditorCell a:visited{
+	text-decoration: underline;
+}
+.Layout div.Item {
+	padding: 2px 5px 2px 5px;
+}
+.Layout .NextColumn div.Item {
+	padding: 2px 5px 2px 5px;
+}
+.Layout .LayoutTabs {
+	margin: 10px 0px 0px 0px;
+}
+.Layout .LayoutTabContainer {
+	margin: 0px !important;
+}
+.StaticText {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.Layout .haLeft 
+{
+	text-align: left !important;
+}
+.Layout .haRight 
+{
+	text-align: right !important;
+}
+.Layout .haCenter 
+{
+	text-align: center !important;
+}
+
+.Layout .vaTop
+{
+	vertical-align: top !important;
+}
+.Layout .vaCenter
+{
+	vertical-align: middle !important;
+}
+.Layout .vaBottom 
+{
+	vertical-align: bottom !important;
+}
+.LayoutTabContainer .Item
+{
+    padding: 5px !important;
+}
+/* Grid */
+td.ActionCell 
+{
+	text-align: center;
+	white-space: nowrap;
+}
+td.ActionCell *
+{
+	white-space: nowrap;
+}
+.xafGridColumnChooser
+{
+	text-align: right;
+	padding: 3px;
+}
+.xafGridPageSizeChooserLabel
+{
+	padding: 3px;
+	white-space: nowrap;
+}
+/* Chart */
+.xafChartPanel label {
+	font-size: 85%;
+}
+.xafChartPanel .dxeMemoEditArea_xaf label {
+	font-size: 100%;
+}
+/* ActionContainerHolder */
+.ACH .TemplatedItem 
+{
+	padding: 0px 10px 0px 10px;
+}
+/* TreeList Node Template:
+   NavigationDataCellTemplate and ASPxTreeListDataCellTemplateImageDecorator */
+.TextCell
+{
+	padding-left: 5px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.XafTreeNode .ImageCell 
+{
+	width: 16px;
+	vertical-align: top;
+}
+.XafTreeNode .TextCell 
+{
+	padding: 0px 5px;
+	font-size: 90%;
+}
+/* FileDataEdit */
+.XafFileDataAnchor
+{
+	white-space:nowrap;
+	margin-right: 5px;
+}
+/* NavigationBarActionContainer */
+.xafNavigationBarActionContainer
+{
+    margin-bottom: 3px;
+}
+/* DropDownSingleChoiceActionControlHorizontal */
+.SingleChoiceActionItemLabel
+{
+    padding-left: 9px;
+    padding-right: 5px;
+}

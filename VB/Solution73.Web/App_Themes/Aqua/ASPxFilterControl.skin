@@ -1,0 +1,9 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v11.1, Version=11.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxe" Namespace="DevExpress.Web.ASPxEditors" Assembly="DevExpress.Web.ASPxEditors.v11.1, Version=11.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<dxe:ASPxFilterControl runat="server">
+	<Images SpriteCssFilePath="{0}/sprite.css">
+	    <LoadingPanel Url="Editors/Loading.gif"></LoadingPanel>
+	</Images>
+	<Styles CssFilePath="{0}/styles.css" CssPostfix="Aqua"></Styles>
+	<SettingsLoadingPanel ImagePosition="Top" />
+</dxe:ASPxFilterControl>
