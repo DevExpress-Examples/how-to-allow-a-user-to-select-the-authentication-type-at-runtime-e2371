@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Authentication.cs](./CS/Solution73.Module/Authentication.cs) (VB: [Authentication.vb](./VB/Solution73.Module/Authentication.vb))
+<!-- default file list end -->
 # How to: Allow a user to select the authentication type at runtime
 
 
